@@ -1,0 +1,304 @@
+body{
+    position: relative;
+}
+
+
+.storynka-block-title{
+    display: flex;
+}
+
+.storynka-block-title-zakaz{
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+    margin-top: 40px;
+    border: 1px solid #d3d2d2;
+    width: 450px;
+    min-height: 200px;
+    padding: 10px;
+}
+
+.storynka-title-title{
+    font-size: 35px;
+    margin: 0px 0px 30px 0px;
+}
+
+.storynka-title-tsena span{
+    padding: 0px 0px 0px 10px;
+}
+
+.storynka-title-tsena{
+    font-size: 33px;
+    color: rgb(95, 95, 95);
+}
+
+.storynka-zakaz{
+    margin: 20px 0px 0px 0px;
+}
+
+.zakaz{
+    background-color: rgb(245, 100, 47);
+    color: #fff;
+    font-size: 28px;
+    padding: 3px 5px;
+    border-radius: 3px;
+    border: 1px solid #3d3d3d;
+    transition: all 0.3s ease 0s;
+}
+
+.zakaz:hover{
+    background-color: #fff;
+    border: 1px solid rgb(245, 100, 47);
+    color: #000;
+    transition: all 0.3s ease 0s;
+}
+
+
+
+.storynka-vajlivi-haracter{
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+    margin-top: 20px;
+    border: 1px solid #d3d2d2;
+    width: 450px;
+    height: 320px;
+    padding: 10px;
+}
+
+.title-vajlivi-haracter{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.haracter-vajlivi-haracter{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 250px;
+    font-size: 23px;
+    color: #3d3d3d;
+}
+
+.haracter{
+    display: flex;
+    justify-content: space-between;
+}
+
+.storynka-block-opis-harackter-vidguk{
+    margin: 40px;
+    border: 1px solid #d3d2d2;
+}
+
+.storynka-knopky{
+    display: flex;
+}
+
+.knopka-s{
+    margin: 10px 0px 0px 15px;
+    font-size: 26px;
+    cursor: pointer;
+    color: #afafaf;
+}
+
+.active{
+    border-bottom: 2px solid;
+    color:rgb(245, 100, 47) ;
+}
+
+.srorynka-knopka-opis:hover{
+color: rgb(245, 100, 47) ;
+}
+
+.srorynka-knopka-harakter:hover{
+color: rgb(245, 100, 47) ;
+}
+
+.srorynka-knopka-vidguk:hover{
+color: rgb(245, 100, 47) ;
+}
+
+.storinka-block-opis{
+    margin: 20px 20px;
+}
+
+.title-end{
+    margin-bottom: 20px;
+    font-size: 28px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.opis-block{
+    border-bottom: 1px solid #afafaf;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+.opis-block-text{
+    font-size: 18px;
+    line-height: 25px;
+}
+
+
+.storinka-block-harackter{
+    margin: 20px 20px;
+}
+
+.harackter-block-text{
+    font-size: 27px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+}
+
+.harackter-block-text:hover{
+border-bottom: 1px solid rgb(245, 100, 47);
+}
+
+.vidgyk{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+form textarea{
+    border: 1px solid rgb(245, 100, 47);
+    width: 400px;
+    height: 200px;
+}
+
+form button{
+    border: 1px solid #000;
+    background-color: rgb(245, 100, 47);
+    color: #fff;
+    margin: 10px;
+    font-size: 18px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: all 0.3s ease 0s;
+}
+
+form button:hover{
+    background-color: #fff;
+    border: 1px solid rgb(245, 100, 47);
+    color: rgb(245, 100, 47);
+    transition: all 0.3s ease 0s;
+}
+
+
+
+.zakaz-div{
+    background-color: rgb(245, 100, 47);
+    color: #fff;
+    font-size: 28px;
+    padding: 3px 5px;
+    border-radius: 3px;
+    border: 1px solid #3d3d3d;
+    transition: all 0.3s ease 0s;
+    width: 195px;
+    cursor: pointer;
+}
+
+.zakaz-div:hover{
+    background-color: #fff;
+    border: 1px solid rgb(245, 100, 47);
+    color: #000;
+    transition: all 0.3s ease 0s;
+}
+
+.pidtverdt{
+    position:fixed;
+    top: 50%;
+    left: 20%;
+    background: #666666;
+    color: #fff;
+    font-size: 25px;
+    border: 2px solid rgb(245, 100, 47);
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-pid span{
+    color: rgb(245, 100, 47);
+    margin-left: 5px;
+}
+
+.knopki-pid{
+    margin-top: 10px;
+    display: flex;
+    width: 800px;
+    justify-content: end;
+    margin-right: 20px;
+}
+
+.storynka-no{
+    margin: 10px;
+    padding: 5px;
+    background: rgb(155, 5, 5);
+    border: 1px solid #fff;
+    border-radius: 5px;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+}
+
+.storynka-no:hover{
+    background: rgb(236, 20, 20);
+    transition: all 0.3s ease 0s;
+}
+
+.storynka-yes{
+    margin: 10px 0px 10px 10px;
+    padding: 5px;
+    background: rgb(5, 108, 155);
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    transition: all 0.3s ease 0s;
+}
+
+.storynka-yes:hover{
+    background: rgb(6, 146, 211);
+    transition: all 0.3s ease 0s;
+}
+
+.a-ne-reg{
+    color: #fff;
+    background-color: rgb(245, 100, 47);
+    border: 1px solid #3d3d3d;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 5px;
+}
+
+.coment-block{
+    border: 1px solid #afafaf;
+    width: 500px;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.block-init-date-coment{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #afafaf;
+    background-color: #d3d2d2;
+    padding: 5px;
+}
+
+.block-init-coment span{
+margin-right: 5px;
+}
+
+.block-text-coment{
+    padding: 10px;
+}
+
+.none{
+    display: none;
+}

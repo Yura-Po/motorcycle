@@ -1,0 +1,118 @@
+body{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    background: url("../image/mototsikl.jpg" )0 0/100% no-repeat fixed;
+}
+
+.form-block{
+    width: 400px;
+    padding: 30px 40px;
+    border: 2px solid #4d3618;
+    border-radius: 4px;
+    background: #fff;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+label{
+    color: #4d3618;
+}
+
+input{
+    margin: 10px 0px;
+    border-bottom: 2px solid #4d3618;
+    outline: none;
+    font-size: 20px;
+    color: #4d3618;
+    /* padding: 10px 0px; */
+}
+
+.passLine{
+    display: flex;
+    align-items: center;
+}
+
+.passinput{
+    margin: 10px 20px 10px 0px;
+    padding: 0px 50px 0px 0px;
+}
+
+.sauron-div:hover{
+background: #4d3618;
+border-radius: 7px;
+transition: all 0.3s ease 0s;
+cursor: pointer;
+}
+
+.sauron{
+    max-width: 30px;
+}
+
+.button_form{
+    background: #4d3618;
+    border: 1px solid #000;
+    border-radius: 5px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+
+.button_form:hover{
+    background: #755225;
+    color: #fff;
+    transition: all 0.3s ease 0s;
+}
+
+.silki-div{
+    color: #4d3618;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.silki-a{
+    color: #4d3618;
+    margin: 5px;
+}
+
+.silki-a:hover{
+    color: #8b622c;
+    transition: all 0.3s ease 0s;
+}
+
+.kapcha{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.msg{
+    border: 2px solid #e9380b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+.none{
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+}
+
+.error_{
+    border-bottom: 2px solid #e9380b;
+}

@@ -22,6 +22,17 @@
     background: #707070;
 }
 
+.admin-panel{
+    font-size: 20px;
+    color: #fff;
+    transition: all 0.3s ease 0s;
+}
+
+.admin-panel:hover{
+    color: #c4c4c4;
+    transition: all 0.3s ease 0s;
+}
+
 .header-menu{
     width: 280px;
     padding-right: 10px;
@@ -58,7 +69,387 @@
 }
 
 .content{
-    border: 1px solid #000;
-    height: 400px;
+    min-height: 400px;
     width: 1110px;
+    margin-left: 10%;
+}
+
+.moto-block-img img{
+width: 250px;
+height: 200px;
+}
+
+
+.moto-flex-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.moto-block{
+    border: 1px solid #464545;
+    width: 370px;
+    height: 275px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.bike-harakter{
+    opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+        transition: all 0.3s ease 0s;
+}
+
+.moto-block:hover{
+height: 350px ;
+}
+
+.moto-block:hover > .bike-harakter{
+    opacity: 1;
+    visibility: visible;
+    pointer-events: all;
+    transition: all 0.3s ease 0s;
+    }
+
+.moto-visible{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bike-title{
+    font-size: 22px;
+    margin-top: 20px;
+    color: #000;
+}
+
+.bike-tsena{
+    font-size: 20px;
+    margin-top: 10px;
+    color: #707070;
+}
+
+.bike-harakter{
+    background-color: #707070;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+    color: #fff;
+}
+
+.block-footer{
+    max-width: 1680px;
+    min-height: 160px;
+    margin: 10px 0px 0px 0px;
+    background-color: #464545;
+    color: #fff;
+    font-size: 20px;
+}
+
+.kontakti{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.kontakti-icon{
+    padding-top: 10px;
+    line-height: 35px;
+}
+
+.kontakti-title{
+    margin: 20px;
+}
+
+.adres{
+    margin: 20px;
+    line-height: 30px;
+}
+
+.block-admin-panel{
+    margin: 10px;
+    border: 1px solid #707070;
+}
+
+.block-admin-content-users{
+    display: flex;
+    padding: 10px;
+    border-bottom: 1px solid #5c5c5c;
+}
+
+.mini-menu{
+    color: #5c5c5c;
+    font-size: 26px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+}
+
+.block-admin-text-content{
+    min-height: 400px;
+}
+
+.admin-users{
+    margin-left: 10px;
+}
+
+.admin-zaiava{
+    margin-left: 10px;
+}
+
+.admin-text-content{
+    border: 1px solid #5c5c5c;
+    background-color: #d6d5d5;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.admin-text-content-user{
+    border: 1px solid #5c5c5c;
+    background-color: #d6d5d5;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.admin-text-content-img img{
+ width: 100px;
+ height: 100px;
+ margin: 10px;
+}
+
+.admin-text-content-info{
+    display: flex;
+    align-items: center;
+}
+
+.admin-text-content-info-user{
+    display: flex;
+    align-items: center;
+}
+
+.block-text-admin-text-content{
+    display: flex;
+    flex-direction:column ;
+    margin-left: 20px;
+    justify-content: space-around;
+    height: 80px;
+    align-items: center;
+    color: #444444;
+    width: 300px;
+}
+
+.block-text-admin-text-content-user{
+    display: flex;
+    flex-direction:column ;
+    margin-left: 20px;
+    justify-content: space-around;
+    height: 80px;
+    align-items: center;
+    color: #444444;
+    width: 300px;
+}
+
+.admin-text-content-title-title{
+    font-size: 20px;
+}
+
+.admin-text-content-title-title-user{
+    font-size: 20px;
+}
+
+.admin-text-content-title{
+    font-size: 20px;
+}
+
+.admin-text-content-title-user{
+    font-size: 20px;
+}
+
+
+.admin-text-content-kilkist-title{
+    font-size: 20px;
+}
+
+.admin-text-content-kilkist{
+    font-size: 20px;
+}
+
+.delete-content{
+    margin: 0px 10px;
+    background-color: #8a0404;
+    font-size: 20px;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    padding: 2px 7px;
+    transition: all 0.3s ease 0s;
+}
+
+.delete-content-user{
+    margin: 0px 10px;
+    background-color: #8a0404;
+    font-size: 20px;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    padding: 2px 7px;
+    transition: all 0.3s ease 0s;
+}
+
+.delete-content-user:hover{
+    background-color: #d30707;
+    transition: all 0.3s ease 0s;
+}
+
+.delete-content:hover{
+    background-color: #d30707;
+    transition: all 0.3s ease 0s;
+}
+
+.redact-content{
+    background-color: #04608a;
+    font-size: 20px;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    padding: 2px 7px;
+    transition: all 0.3s ease 0s;
+}
+
+.redact-content-user{
+    background-color: #04608a;
+    font-size: 20px;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    padding: 2px 7px;
+    transition: all 0.3s ease 0s;
+}
+
+.redact-content-user:hover{
+    background-color: #0770d3;
+    transition: all 0.3s ease 0s;
+}
+
+.redact-content:hover{
+    background-color: #0770d3;
+    transition: all 0.3s ease 0s;
+}
+
+.for-content-new a{
+    font-size: 28px;
+    color: #5c5c5c;
+    margin-left: 20px;
+    transition: all 0.3s ease 0s;
+}
+
+.for-content-new a:hover{
+transition: all 0.3s ease 0s;
+color: rgb(245, 100, 47);
+}
+
+.block-zaiuava{
+    border: 1px solid #707070;
+    margin: 10px;
+}
+
+.block-init-date{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #707070;
+    background: #5c5c5c;
+    color: #fff;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.block-init span{
+    margin: 10px;
+}
+
+.block-kontacti-tel-email{
+    font-size: 20px;
+    padding: 5px;
+    border-bottom: 1px solid #707070;
+}
+
+.block-kontacti-tel-email-title{
+    font-size: 25px;
+    padding-bottom: 5px;
+}
+
+.block-moto-klient-img img{
+    width: 150px;
+    height: 150px;
+    border: 1px solid #707070;
+}
+
+.block-moto-klient{
+    display: flex;
+    padding: 10px;
+}
+
+.block-moto-klient-block-name{
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.klient-block-name-title{
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.block-moto-klient-end{
+    display: flex;
+    border-top: 1px solid #707070;
+    background-color: #5c5c5c;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.block-moto-klient-end-kil{
+    font-size: 25px;
+    color: #fff;
+}
+
+.ne-pidtv-pidtv{
+    display: flex;
+}
+
+.ne-pidtv{
+    margin: 20px;
+    font-size: 28px;
+    color: #707070;
+    cursor: pointer;
+}
+
+.pidtv{
+    cursor: pointer;
+    margin: 20px;
+    font-size: 28px;
+    color: #707070;
+}
+
+.ne-pidtv:hover{
+color: rgb(245, 100, 47);
+}
+
+.pidtv:hover{
+color: rgb(245, 100, 47);
+}
+
+.active-menu{
+    color: rgb(245, 100, 47);
+    border-bottom: 1px solid rgb(245, 100, 47);
+}
+
+.none{
+    display: none;
 }

@@ -1,0 +1,36 @@
+
+.form-block form{
+    margin-top: 600px;
+    border: 2px solid #4d3618;
+    background: #fff;
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin-bottom: 100px;
+}
+
+.form-block textarea{
+width: 1150px;
+border: 1px solid #4d3618;
+height: 200px;
+resize: none;
+}
+
+.form-block label{
+    margin: 10px 0px;
+}
+
+.button_form{
+    width: 200px;
+    margin-top: 10px;
+}
+
+input{
+    display: none;
+}
+
+.error_{
+    border: 1px solid #cc3507;
+}
